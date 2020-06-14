@@ -17,18 +17,18 @@ var total=0;
 var ga=0;
 
 alert("Posto do Tonho");
-ga=prompt("Digite o valor da bomba: 1 para gasolina e da bomba 2 para alcool", "Digite aqui");
+ga=prompt("Digite o valor da bomba: 1 para Álcool e da bomba 2 para Gasolina", "Digite aqui");
 
 litros = prompt("Digite a quantidade de litros","Digite aqui")
 
 
 if(ga==1){
     total=litros*gasolina;
-    document.write(" Você solicitou " ,litros, " litros e o seu valor total será de ", parseInt(total*100)/100);
+    document.write(" Você solicitou " ,litros, " litros e o seu valor total será de R$ ", parseInt(total*100)/100);
 }else if
 (ga==2){
     total=litros*alcool;
-    document.write(" Você solicitou " ,litros, " litros e o seu valor total será de ", parseInt(total*100)/100);
+    document.write(" Você solicitou " ,litros, " litros e o seu valor total será de R$ ", parseInt(total*100)/100);
 }else{
     document.write("Dados indisponivel")
 }
